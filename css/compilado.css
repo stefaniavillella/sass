@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap");
-
 .header {
   background-color: white;
   position: sticky; }
@@ -48,7 +47,7 @@
   .cards__shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
   .cards__shadow:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 0 8px 16px 0 rgba(159, 0, 233, 0.4);
     transition: 0.3s; }
 
 .footer {
