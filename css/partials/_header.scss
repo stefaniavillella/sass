@@ -1,0 +1,25 @@
+.header{
+    background-color: white;
+    position: sticky;
+
+     &__navItem{
+    color: rgb(128, 73, 180);
+     }
+
+    &__navItem:hover{
+    color: rgb(226, 144, 178);
+    font-weight: bold;
+    }
+
+    &__botonBusqueda{
+    background-color: rgb(255, 169, 183);
+    border-color: rgb(255, 134, 201);
+    color: white;
+    }
+
+    &__botonBusqueda:hover{
+    background-color: rgb(255, 83, 126);
+    border-color: rgb(114, 12, 46);
+    color: white;
+    }
+}

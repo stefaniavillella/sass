@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/bootstrap-grid.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dreams Graphics - Tienda de diseño</title>
+ 
+    <link rel="stylesheet" href="./css/compilado.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+</head>
+<body>
+    <header class="header"> <!--NAVEGACIÓN-->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> <img src="./img/logo.png" alt="imagen de logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+              <li class="nav-item">
+                <a class="nav-link active header__navItem" aria-current="page" href="#">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header__navItem" href="./page/quienesSomos.html">Quiénes Somos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header__navItem" href="./page/productos.html">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header__navItem" href="./page/comoComprar.html">Cómo comprar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link header__navItem" href="./page/contacto.html">Contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Ingresar búsqueda" aria-label="Search">
+              <button class="btn btn-outline-success header__botonBusqueda" type="submit">Buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+ </header>
+
+ <!--Carrusel-->
+
+ <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./img/slide1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/slide2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="./img/slide3.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!--Sección kits-->
+<div class="container cardFlex ">
+  <div class="row mt-5 d-flex justify-content-around">
+
+<div class="card shadow col-md-4 col-xs-12 cardKit" style="width: 18rem;">
+  <img src="./img/kitCumples.jpg" class="card-img-top img-fluid mt-2" alt="Imagen kit cumpleaños">
+  <div class="card-body">
+    <h5 class="card-title">Fiestas de Cumpleaños</h5>
+    <p class="card-text">Hacé que el cumpleaños sea aún más mágico con estos kits que tenemos para vos. <br>
+      Solo buscá el que más te guste, comprá, descargá, editá e imprimí. ¡LISTO!
+      Ya vas a tener para armar todas las piezas que quieras</p>
+    <a href="#" class="btn btn-primary botonCartas">Ver Kits</a>
+  </div>
+</div>
+
+<div class="card shadow col-md-4 col-xs-12 cardKit" style="width: 18rem;">
+  <img src="./img/bautismos.jpg" class="card-img-top img-fluid mt-2" alt="Imagen kit bautismos">
+  <div class="card-body">
+    <h5 class="card-title">Comuniones y Bautismos</h5>
+    <p class="card-text">Los bautismos y comuniones son tan importantes como un cumple.
+      Por eso te invitamos a que veas todas las opciones que tenemos para decorar <br>
+      en ese día tan especial y único</p>
+    <a href="#" class="btn btn-primary botonCartas">Ver Kits</a>
+  </div>
+</div>
+
+<div class="card shadow col-md-4 col-xs-12 cardKit" style="width: 18rem;">
+  <img src="./img/kitEspeciales.jpg" class="card-img-top img-fluid mt-2" alt="Imagen kits especiales">
+  <div class="card-body">
+    <h5 class="card-title">Fechas especiales</h5>
+    <p class="card-text">El día de la madre, día del niño, día del padre y muchas fechas más, tienen su kit especial! Accedé, encontrá el estilo que más te guste y empezá a decorar</p>
+    <a href="#" class="btn btn-primary botonCartas">Ver Kits</a>
+  </div>
+</div>
+
+</div>
+</div>
+
+
+
+<!-- Footer -->
+<footer class="page-footer font-small unique-color-light mt-5 colorFooter">
+
+  <div style="background-color: #f5cfe6;">
+    <div class="container">
+
+      <!-- Grid row-->
+      <div class="row py-4 d-flex align-items-center">
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-5 text-start text-md-left mb-4 mb-md-0">
+          <h6 class="mb-0 white-text">Seguinos en las redes sociales!</h6>
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-6 col-lg-7 text-end text-md-right">
+
+        
+         <!-- Facebook -->
+         <a class="fb-ic">
+          <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x black"> </i>
+        </a>
+        
+        <!--Instagram-->
+        <a class="ins-ic">
+          <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x black"> </i>
+        </a>
+        <!--Pinterest-->
+        <a class="pin-ic">
+          <i class="fab fa-pinterest fa-lg white-text fa-2x black"> </i>
+        </a>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row-->
+
+    </div>
+  </div>
+
+  <!-- Footer Links -->
+  <div class="container text-center text-md-left mt-5 ">
+
+    <!-- Grid row -->
+    <div class="row mt-3">
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+        <!-- Content -->
+        <i class="fas fa-truck"></i>
+        <h6 class="text-uppercase font-weight-bold">Envíos gratis</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Hacemos envíos a todo el país. Al ser un producto digital nos permite romper con todas las barreras y llegar a todos los rincones!</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <i class="fas fa-credit-card"></i>
+        <h6 class="text-uppercase font-weight-bold">Tarjetas</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Aceptamos todas las tarjetas de crédito, también pagos por
+          Mercado Pago, PayPal, Rapipago, Pago Fácil
+          y transferencia bancaria</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+
+        <!-- Links -->
+        <i class="fas fa-shopping-cart"></i>
+        <h6 class="text-uppercase font-weight-bold">Carrito</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <p>Agregando al carrito de compras
+          obtenés un descuento al superar los $3000</p>
+
+      </div>
+      <!-- Grid column -->
+
+      <!-- Grid column -->
+      <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+        <!-- Links -->
+        <i class="fas fa-envelope mr-3"></i>
+        <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
+        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+        <form class="input-group">
+          <input type="text" class="form-control form-control-sm" placeholder="Tu email"
+            aria-label="Tu email" aria-describedby="basic-addon2">
+          <div class="input-group-append">
+            <button class="btn btn-sm botonBusqueda my-0" type="button">Enviar</button>
+          </div>
+        </form>
+
+      </div>
+      <!-- Grid column -->
+
+    </div>
+    <!-- Grid row -->
+
+  </div>
+  <!-- Footer Links -->
+
+  <!-- Copyright -->
+  <div class="footer-copyright text-center py-3">© 2022 Copyright:
+    <a class="copy" href="#"> dreamsgraphics.com</a>
+  </div>
+
+    </div>
+  </div>
+   </footer>
+
+   <script src="./js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

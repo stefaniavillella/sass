@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap");
+.header {
+  background-color: white;
+  position: sticky; }
+  .header__navItem {
+    color: #8049b4; }
+  .header__navItem:hover {
+    color: #e290b2;
+    font-weight: bold; }
+  .header__botonBusqueda {
+    background-color: #ffa9b7;
+    border-color: #ff86c9;
+    color: white; }
+  .header__botonBusqueda:hover {
+    background-color: #ff537e;
+    border-color: #720c2e;
+    color: white; }

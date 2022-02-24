@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/bootstrap-grid.css">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto bootsrtap - Contacto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header> <!--NAVEGACIÓN-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#"> <img src="../img/logo.png" alt="imagen de logo"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link navItem" aria-current="page" href="../index.html">Inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navItem" href="./quienesSomos.html">Quiénes Somos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navItem" href="./productos.html">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link navItem" href="./comoComprar.html">Cómo comprar</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active navItem" href="#">Contacto</a>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Ingresar búsqueda" aria-label="Search">
+                <button class="btn btn-outline-success botonBusqueda" type="submit">Buscar</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+   </header>
+
+
+    <div class="container-fluid">
+        <div class="row mt-5 d-flex justify-content-around">
+
+            <div class="col-md-6 m-2">
+                <img src="../img/contacto.png" alt="imagen de contacto" class="w-100">
+            </div>
+
+
+            <div class="col-md-4">
+                <div class="card text-start p-2 d-flex justify-content-center cardContacto" >
+            <form method="POST" action="/index.php" class="needs-validation mt-5" novalidate>
+                <label id="userSex">SEXO:</label>
+                <input type="radio" name="campousersex" id="userSex" value="masculino"> Hombre
+                <input type="radio" name="campousersex" id="userSex" value="femenino"> Mujer
+                <div class="form-row">
+                    <div class="col-md-12">
+                        <label for="validarNombre">Nombres:<span class="red">*</span></label>
+                        <input type="text" class="form-control" id="validarNombre" name="validarNombre" required>
+                    </div>
+                </div>
+            
+                <div class="form-row">
+                    <div class="col-md-12">
+                        <label for="validarApellidos">Apellidos:<span class="red">*</span></label>
+                        <input type="text" class="form-control" id="validarApellidos" name="validarApellidos" required>
+                    </div>
+                </div>
+            
+                <div class="form-row">
+                    <div class="col-md-12">
+                        <label for="validarEmail">Email:<span class="red">*</span></label>
+                        <input type="email" class="form-control" id="validarEmail" name="validarEmail" required>
+                    </div>
+                </div>
+            
+                <div class="form-row">
+                    <div class="col-md-12">
+                        <label for="validarTelefono">Teléfono:</label>
+                        <input type="number" class="form-control" id="validarTelefono" name="validarTelefono" max="999999999">
+                    </div>
+                </div>
+            
+                <div class="form-row">
+                    <div class="col-md-12">
+                        <label for="validarEstadoCivil">Estado Civil</label>
+                        <select class="custom-select" id="validarEstadoCivil" name="validarEstadoCivil">
+                            <option selected disabled value="">Selecciona tu estado civil</option>
+                            <option value="Problema con acceso a Web">Soltero/a</option>
+                            <option value="Propuesta de colaboración">Casado/a</option>
+                            <option value="Eliminar mi usuario de la Web">Divorciado/a</option>
+                        </select>
+                    </div>
+                </div>
+            
+                <div class="form-row">
+                    <div class="col-md-12">
+                        <label for="validarAsunto">Asunto:</label>
+                        <input type="text" class="form-control" id="validarAsunto" name="validarAsunto" required>
+                    </div>
+                </div>
+            
+                <div class="form-group">
+                    <label for="validationMensaje">Mensaje:<span class="red">*</span></label>
+                    <textarea class="form-control" id="validationMensaje" name="validationMensaje" rows="3" min="25" required></textarea>
+                </div>
+            
+                <div class="form-group mb-10 pt-3 pb-3">
+                    <button class="btn botonBusqueda" type="submit" name="submit">Enviar</button>
+                    <button class="btn botonBusqueda" type="reset" name="reset">Limpiar</button>
+                </div>
+            
+            </form>
+         </div>
+     </div>
+
+
+
+        </div>
+    </div>
+
+
+
+
+        <!-- Footer -->
+<footer class="page-footer font-small unique-color-light mt-5 colorFooter">
+
+    <div style="background-color: #f5cfe6;">
+      <div class="container">
+  
+        <!-- Grid row-->
+        <div class="row py-4 d-flex align-items-center">
+  
+          <!-- Grid column -->
+          <div class="col-12 text-center text-md-left mb-4 mb-md-0">
+            <h6 class="mb-0 white-text">Gracias por confiar en nosotras. Pronto te responderemos!</h6>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row-->
+  
+      </div>
+    </div>
+  
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left mt-5 ">
+  
+      <!-- Grid row -->
+      <div class="row mt-3">
+  
+        <!-- Grid column -->
+        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+  
+          <!-- Content -->
+          <i class="fas fa-phone mr-3"></i>
+          <h6 class="text-uppercase font-weight-bold">Contactanos</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>Tel.: 02224 500374</p>
+          <p>
+            <i class="fas fa-home mr-3"></i> Costa 140, A.Korn</p>
+          <p>
+  
+        </div>
+        <!-- Grid column -->
+  
+        <!-- Grid column -->
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+  
+          <!-- Links -->
+          <i class="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i> <i class="fab fa-facebook-f fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
+          <h6 class="text-uppercase font-weight-bold">Seguinos en las redes</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <p>@dreamsgraphics_</p>
+  
+        </div>
+        <!-- Grid column -->
+  
+    
+  
+        <!-- Grid column -->
+        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+  
+          <!-- Links -->
+          <i class="fas fa-envelope mr-3"></i>
+          <h6 class="text-uppercase font-weight-bold">Newsletter</h6>
+          <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+          <form class="input-group">
+            <input type="text" class="form-control form-control-sm" placeholder="Tu email"
+              aria-label="Tu email" aria-describedby="basic-addon2">
+            <div class="input-group-append">
+              <button class="btn btn-sm botonBusqueda my-0" type="button">Enviar</button>
+            </div>
+          </form>
+  
+        </div>
+        <!-- Grid column -->
+  
+      </div>
+      <!-- Grid row -->
+  
+    </div>
+    <!-- Footer Links -->
+  
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2022 Copyright:
+      <a class="copy" href="#"> dreamsgraphics.com</a>
+    </div>
+  
+      </div>
+    </div>
+     </footer>
+
+ <script src="../js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
