@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap");
+
 .header {
   background-color: white;
   position: sticky; }
@@ -8,10 +9,58 @@
     color: #e290b2;
     font-weight: bold; }
   .header__botonBusqueda {
-    background-color: #ffa9b7;
-    border-color: #ff86c9;
-    color: white; }
+    background: linear-gradient(-45deg, #ff537e, #f4a074, #2973b4, #104d82);
+    background-size: 800% 400%;
+    padding: 10px;
+    display: inline-block;
+    border: none;
+    border-radius: 10px;
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+    transition: all .5s ease-in-out;
+    animation: gradient 10s infinite cubic-bezier(0.62, 0.28, 0.23, 0.99) both; }
   .header__botonBusqueda:hover {
+    animation: gradient 3s infinite;
+    transform: scale(1.05); }
+  .header__botonBusqueda:active {
+    animation: gradient 3s infinite;
+    transform: scale(0.8); }
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%; }
+  50% {
+    background-position: 100% 50%; }
+  100% {
+    background-position: 0% 50%; } }
+
+.cards {
+  background-color: white; }
+  .cards__botonCartas {
+    background-color: #6bc5db;
+    border-color: #3b46a8;
+    color: white; }
+  .cards__botonCartas:hover {
     background-color: #ff537e;
     border-color: #720c2e;
     color: white; }
+  .cards__shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+  .cards__shadow:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s; }
+
+.footer {
+  background-color: #fff3fa;
+  font-weight: bold; }
+  .footer__black {
+    color: black; }
+  .footer__black:hover {
+    color: #550b9b; }
+  .footer__copy {
+    text-decoration: none;
+    color: #7a539e; }
+  .footer__copy:hover {
+    text-decoration-line: underline;
+    color: #a10a51; }

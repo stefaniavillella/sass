@@ -1,0 +1,27 @@
+.cards{
+    background-color: white;
+
+    &__botonCartas{
+    background-color: rgb(107, 197, 219);
+    border-color: rgb(59, 70, 168);
+    color: white;
+     }
+
+    &__botonCartas:hover{
+    background-color: rgb(255, 83, 126);
+    border-color: rgb(114, 12, 46);
+    color: white;
+    }
+
+
+    &__shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+    }
+
+    &__shadow:hover{
+    box-shadow:  0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    }
+
+}

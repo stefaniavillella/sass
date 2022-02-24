@@ -1,0 +1,23 @@
+.footer{
+    background-color: $rosaFooter;
+    font-weight: $titleFooter;
+
+    &__black{
+    color: black;
+    }
+
+    &__black:hover{
+    color: rgb(85, 11, 155);
+    }
+
+    &__copy{
+    text-decoration: none;
+    color: rgb(122, 83, 158);
+    }
+
+    &__copy:hover{
+    text-decoration-line: underline;
+    color: rgb(161, 10, 81);
+    }
+
+}
