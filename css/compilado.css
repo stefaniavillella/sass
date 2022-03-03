@@ -74,6 +74,15 @@
     text-decoration-line: underline;
     color: #a10a51; }
 
+.icon--facebook {
+  color: #121296; }
+
+.icon--instagram {
+  color: #d4145a; }
+
+.icon--pinterest {
+  color: #f71414; }
+
 .categorias {
   font-size: 1.2rem;
   font-weight: bold; }

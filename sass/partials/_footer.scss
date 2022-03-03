@@ -21,3 +21,22 @@
     }
 
 }
+
+
+
+
+
+
+$redes: (
+    facebook: #121296,
+    instagram: #d4145a,
+    pinterest: #f71414,
+
+);
+
+@each $red, $valor in $redes {
+    .icon--#{$red} {
+        color: $valor;
+    }
+}
+
