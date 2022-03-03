@@ -8,17 +8,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="En esta página tendrás los pasos a seguir para una correcta compra">
+    <meta name="keywords"  content="DISEÑO, KITS, IMPRIMIBLES, EVENTOS, IMPRESIONES, CONSULTAS, COMPRAR">
     <title>Dreams Graphics - Compras</title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/compilado.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header> <!--NAVEGACIÓN-->
+    <header class="header"> <!--NAVEGACIÓN-->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <a class="navbar-brand" href="#"> <img src="../img/logo.png" alt="imagen de logo"></a>
@@ -28,24 +30,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link navItem" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link header__navItem" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navItem" href="./quienesSomos.html">Quiénes Somos</a>
+                  <a class="nav-link header__navItem" href="./quienesSomos.html">Quiénes Somos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navItem" href="./productos.html">Productos</a>
+                  <a class="nav-link header__navItem" href="./productos.html">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active navItem" href="#">Cómo comprar</a>
+                  <a class="nav-link active header__navItem" href="#">Cómo comprar</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navItem" href="./contacto.html">Contacto</a>
+                  <a class="nav-link header__navItem" href="./contacto.html">Contacto</a>
                 </li>
               </ul>
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Ingresar búsqueda" aria-label="Search">
-                <button class="btn btn-outline-success botonBusqueda" type="submit">Buscar</button>
+                <button class="btn btn-outline-success header__botonBusqueda" type="submit">Buscar</button>
               </form>
             </div>
           </div>
@@ -56,8 +58,12 @@
    <div class="container fluid ">
     <div class="row mt-5 ">
 
+      <div>
+        <h1 class="d-flex justify-content-center text-center h1 h1__index"> Seguí los pasos para adquirir tu kit de Dreams Graphics</h1>
+      </div>
+
     <div class="col-md-3 align-items-stretch">
-        <div class="card shadow text-center p-3 cardCompra" >
+        <div class="card cards__shadow text-center p-3 cardCompra" >
             <img src="../img/iconoEleccion.png" alt="imagen icono eleccion" class="compraImage align-self-center">
             <h4 class="cardCompra__title">Elige el producto que deseas comprar</h4>
             <p class="cardCompra__text fs-6">Haz clic en el botón de <strong>"Agregar al carrito"</strong>. Esto agregará el producto a tu carrito y te llevará al mismo.
@@ -66,7 +72,7 @@
     </div>
 
     <div class="col-md-3 align-items-stretch">
-        <div class="card shadow text-center p-3 cardCompra" >
+        <div class="card cards__shadow text-center p-3 cardCompra" >
             <img src="../img/iconoCompletar.png" alt="imagen icono completar" class="compraImage align-self-center">
             <h4 class="cardCompra__title">Completa tus datos de contacto</h4>
             <p class="cardCompra__text fs-6">Ingresa la dirección de e-mail a donde deseas recibir el archivo digital descargable junto a tus datos. Luego haz clic en <strong>"Continuar"</strong>.</p>
@@ -74,7 +80,7 @@
     </div>
 
     <div class="col-md-3 align-items-stretch">
-        <div class="card shadow text-center p-3 cardCompra" >
+        <div class="card cards__shadow text-center p-3 cardCompra" >
             <img src="../img/iconoPagos.png" alt="imagen icono pagos" class="compraImage align-self-center">
             <h4 class="cardCompra__title">Elige el medio de pago</h4>
             <p class="cardCompra__text fs-6">Una vez seleccionado, haz clic en <strong>"Continuar"</strong>.
@@ -84,7 +90,7 @@
     </div>
 
     <div class="col-md-3  align-items-stretch">
-        <div class="card shadow text-center p-3 cardCompra" >
+        <div class="card cards__shadow text-center p-3 cardCompra" >
             <img src="../img/iconoEnviar.png" alt="imagen icono envio" class="compraImage align-self-center">
             <h4 class="cardCompra__title">Envío automático</h4>
             <p class="cardCompra__text fs-6">Una vez acreditado el pago, encontrarás los links de descarga en el mail de <strong>"Confirmación de Compra"</strong>. Si el pago es por transferencia, es necesario que por favor nos envies el comprobante al mail dreamsgraphicssv@gmail.com</p>
@@ -162,7 +168,7 @@
             <input type="text" class="form-control form-control-sm" placeholder="Tu email"
               aria-label="Tu email" aria-describedby="basic-addon2">
             <div class="input-group-append">
-              <button class="btn btn-sm botonBusqueda my-0" type="button">Enviar</button>
+              <button class="btn btn-sm header__botonBusqueda my-0" type="button">Enviar</button>
             </div>
           </form>
   

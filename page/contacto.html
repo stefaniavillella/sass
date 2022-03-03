@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/compilado.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
@@ -30,24 +30,24 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link navItem" aria-current="page" href="../index.html">Inicio</a>
+                  <a class="nav-link header__navItem" aria-current="page" href="../index.html">Inicio</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navItem" href="./quienesSomos.html">Quiénes Somos</a>
+                  <a class="nav-link header__navItem" href="./quienesSomos.html">Quiénes Somos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navItem" href="./productos.html">Productos</a>
+                  <a class="nav-link header__navItem" href="./productos.html">Productos</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link navItem" href="./comoComprar.html">Cómo comprar</a>
+                  <a class="nav-link header__navItem" href="./comoComprar.html">Cómo comprar</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link active navItem" href="#">Contacto</a>
+                  <a class="nav-link active header__navItem" href="#">Contacto</a>
                 </li>
               </ul>
               <form class="d-flex">
                 <input class="form-control me-2" type="search" placeholder="Ingresar búsqueda" aria-label="Search">
-                <button class="btn btn-outline-success botonBusqueda" type="submit">Buscar</button>
+                <button class="btn btn-outline-success header__botonBusqueda" type="submit">Buscar</button>
               </form>
             </div>
           </div>
@@ -55,16 +55,16 @@
    </header>
 
 
-    <div class="container-fluid">
+    <div class="container-fluid" >
         <div class="row mt-5 d-flex justify-content-around">
 
-            <div class="col-md-6 m-2">
+            <div class="col-md-6 m-2" >
                 <img src="../img/contacto.png" alt="imagen de contacto" class="w-100">
             </div>
 
 
-            <div class="col-md-4">
-                <div class="card text-start p-2 d-flex justify-content-center cardContacto" >
+            <div class="col-md-4" >
+                <div class="card text-start p-2 d-flex justify-content-center cards__cardContacto" >
             <form method="POST" action="/index.php" class="needs-validation mt-5" novalidate>
                 <label id="userSex">SEXO:</label>
                 <input type="radio" name="campousersex" id="userSex" value="masculino"> Hombre
@@ -122,8 +122,8 @@
                 </div>
             
                 <div class="form-group mb-10 pt-3 pb-3">
-                    <button class="btn botonBusqueda" type="submit" name="submit">Enviar</button>
-                    <button class="btn botonBusqueda" type="reset" name="reset">Limpiar</button>
+                    <button class="btn header__botonBusqueda" type="submit" name="submit">Enviar</button>
+                    <button class="btn header__botonBusqueda" type="reset" name="reset">Limpiar</button>
                 </div>
             
             </form>
@@ -204,7 +204,7 @@
             <input type="text" class="form-control form-control-sm" placeholder="Tu email"
               aria-label="Tu email" aria-describedby="basic-addon2">
             <div class="input-group-append">
-              <button class="btn btn-sm botonBusqueda my-0" type="button">Enviar</button>
+              <button class="btn btn-sm header__botonBusqueda my-0" type="button">Enviar</button>
             </div>
           </form>
   

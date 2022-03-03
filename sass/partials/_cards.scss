@@ -23,5 +23,10 @@
     box-shadow:  0 8px 16px 0 rgba(159, 0, 233, 0.4);
     transition: 0.3s;
     }
-
+    
+    &__cardContacto{
+        background-color: rgb(255, 242, 248);
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
+    }
 }

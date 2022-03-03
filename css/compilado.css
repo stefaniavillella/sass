@@ -34,6 +34,12 @@
   100% {
     background-position: 0% 50%; } }
 
+.h1 {
+  font-size: 1.2rem; }
+  .h1__index {
+    color: #ff537e;
+    font-family: 'Montserrat', sans-serif; }
+
 .cards {
   background-color: white; }
   .cards__botonCartas {
@@ -49,6 +55,10 @@
   .cards__shadow:hover {
     box-shadow: 0 8px 16px 0 rgba(159, 0, 233, 0.4);
     transition: 0.3s; }
+  .cards__cardContacto {
+    background-color: #fff2f8;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem; }
 
 .footer {
   background-color: #fff3fa;
@@ -63,3 +73,47 @@
   .footer__copy:hover {
     text-decoration-line: underline;
     color: #a10a51; }
+
+.categorias {
+  font-size: 1.2rem;
+  font-weight: bold; }
+
+.aList {
+  color: #9a5edd; }
+
+.aList:hover {
+  color: #ca0a74; }
+
+.card-title {
+  color: #ff537e; }
+
+@media only screen and (max-width: 767px) {
+  .footerFlex .d-flex {
+    display: flex;
+    flex-direction: column; }
+  .d-flex {
+    display: flex;
+    flex-direction: column; }
+  .cardFlex {
+    display: flex;
+    justify-content: center; }
+  .cardKit {
+    margin-top: 10px; }
+  .cardInt {
+    margin-top: 10px; }
+  .cardCompra {
+    display: flex;
+    flex-direction: column;
+    margin: 5px; } }
+
+@media only screen and (min-width: 1024px) {
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: flex-end; }
+  .footerFlex {
+    display: flex;
+    justify-content: space-around; }
+  .d-flex {
+    display: flex;
+    flex-direction: row; }
+  .h1 {
+    margin: 50px; } }

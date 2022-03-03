@@ -1,0 +1,49 @@
+@media only screen and (max-width: 767px){
+    .footerFlex .d-flex{display: flex;flex-direction: column;
+    }
+    
+
+    .d-flex {
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    .cardFlex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .cardKit{
+        margin-top: 10px;
+    }
+
+    .cardInt{
+      margin-top: 10px;
+    }
+
+    .cardCompra{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+
+
+
+}
+
+
+    @media only screen and (min-width: 1024px){
+        .navbar-expand-lg .navbar-collapse{justify-content: flex-end;}
+        .footerFlex{display: flex;justify-content: space-around;}
+
+        .d-flex {
+            display: flex;
+            flex-direction: row;
+        } 
+        
+        .h1{
+           margin: 50px;
+        }
+        
+    }
