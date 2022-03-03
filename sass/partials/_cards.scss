@@ -2,16 +2,10 @@
     background-color: white;
 
     &__botonCartas{
-    background-color: rgb(107, 197, 219);
-    border-color: rgb(59, 70, 168);
-    color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 0.8rem;
+        color: white;
      }
-
-    &__botonCartas:hover{
-    background-color: rgb(255, 83, 126);
-    border-color: rgb(114, 12, 46);
-    color: white;
-    }
 
 
     &__shadow {
@@ -29,4 +23,24 @@
         font-family: 'Montserrat', sans-serif;
         font-size: 0.8rem;
     }
+}
+
+
+.botonContacto{
+     @extend .cards__botonCartas;
+     background-color: $coral;
+}
+
+.botonContacto:hover{
+    background-color: #d4145a;
+}
+
+
+@mixin text-center {
+    display: flex;
+    text-align: center;
+}
+
+.producto{
+    @include text-center;
 }

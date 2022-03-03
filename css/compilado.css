@@ -42,13 +42,9 @@
 
 .cards {
   background-color: white; }
-  .cards__botonCartas {
-    background-color: #6bc5db;
-    border-color: #3b46a8;
-    color: white; }
-  .cards__botonCartas:hover {
-    background-color: #ff537e;
-    border-color: #720c2e;
+  .cards__botonCartas, .botonContacto {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8rem;
     color: white; }
   .cards__shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
@@ -59,6 +55,16 @@
     background-color: #fff2f8;
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem; }
+
+.botonContacto {
+  background-color: #ff537e; }
+
+.botonContacto:hover {
+  background-color: #d4145a; }
+
+.producto {
+  display: flex;
+  text-align: center; }
 
 .footer {
   background-color: #fff3fa;
