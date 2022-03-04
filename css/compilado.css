@@ -66,6 +66,10 @@
   display: flex;
   text-align: center; }
 
+.tarjeta {
+  background-color: #FFFFFF;
+  padding: 1rem; }
+
 .footer {
   background-color: #fff3fa;
   font-weight: bold; }

@@ -44,3 +44,15 @@
 .producto{
     @include text-center;
 }
+
+
+$estilos: (
+    color: #FFFFFF,
+    pad: 1rem,
+);
+
+.tarjeta {
+   background-color: map-get($estilos, color);
+   padding: map-get($estilos, pad );
+}
+
