@@ -41,7 +41,8 @@
     font-family: 'Montserrat', sans-serif; }
 
 .cards {
-  background-color: white; }
+  background-color: white;
+  align-content: center; }
   .cards__botonCartas, .botonContacto {
     font-family: 'Montserrat', sans-serif;
     font-size: 0.8rem;
@@ -111,11 +112,11 @@
     display: flex;
     flex-direction: column; }
   .d-flex {
-    display: flex;
-    flex-direction: column; }
+    display: flex; }
   .cardFlex {
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    padding: 3rem; }
   .cardKit {
     margin-top: 10px; }
   .cardInt {
